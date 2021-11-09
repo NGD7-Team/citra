@@ -33,7 +33,7 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v2
 
-      - name: Build melonDS Android
+      - name: Build Citra
         env:
           
           ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
