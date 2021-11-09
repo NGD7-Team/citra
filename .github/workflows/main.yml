@@ -40,8 +40,8 @@ jobs:
         run: |
           cd src/android
           chmod +x ./gradlew
-          ./gradlew :app
-          ls -r
+          ./gradlew :app:android
+          ls -R
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
