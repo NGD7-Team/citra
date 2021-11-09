@@ -12,6 +12,7 @@
     <uses-feature android:glEsVersion="0x00030001" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
 
     <application
         android:name="org.citra_emu.citra.CitraApplication"
