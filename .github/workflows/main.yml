@@ -51,7 +51,9 @@ jobs:
           path: app/build/reports/lint-results-debug.html
 
       - name: Android Assemble
-        run: ./gradlew --stacktrace assemble
+        run: |
+          cd src/android
+          ./gradlew --stacktrace assemble
 
       - name: Upload Debug APK
         uses: actions/upload-artifact@v2
